@@ -4,3 +4,8 @@ core.setSecret("github")
 
 console.log("github is cool!")
 core.setOutput("some-output", "test")
+
+core.startGroup("test_group")
+core.error("Something went wrong!")
+core.warning("Something went wrong but not really disastrous!")
+core.endGroup()
