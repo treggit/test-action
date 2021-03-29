@@ -12,3 +12,5 @@ core.endGroup()
 
 core.exportVariable("TEST_VAR", "test")
 core.addPath("some-path")
+
+core.setFailed("Fail :(")
