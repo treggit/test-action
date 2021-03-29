@@ -9,3 +9,5 @@ core.startGroup("test_group")
 core.error("Something went wrong!")
 core.warning("Something went wrong but not really disastrous!")
 core.endGroup()
+
+core.exportVariable("TEST_VAR", "test")
