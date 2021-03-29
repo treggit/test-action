@@ -11,3 +11,4 @@ core.warning("Something went wrong but not really disastrous!")
 core.endGroup()
 
 core.exportVariable("TEST_VAR", "test")
+core.addPath("some-path")
