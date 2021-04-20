@@ -9,14 +9,17 @@ inputs:
     required: false
     description: I don't need this parameter at all
     default: :(
+
 runs:
-  using: "composite"
-  steps:
-    - id: step1
-      name: first step
-      run: echo "This is first action, $INPUT_TEST_INPUT"
-      shell: bash
-    - id: step2
-      name: second step
-      run: second-action.sh
-      shell: sh
+  using:  'node12'
+  main: 'index.js'
+#  using: "composite"
+#  steps:
+#    - id: step1
+#      name: first step
+#      run: echo "This is first action, $INPUT_TEST_INPUT"
+#      shell: bash
+#    - id: step2
+#      name: second step
+#      run: second-action.sh
+#      shell: sh
