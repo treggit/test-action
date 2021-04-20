@@ -1,5 +1,12 @@
 name: Test composite actions
 description: A short description of the action.
+inputs:
+  mandatoryParameter:
+    required: true
+    description: This parameter is very-very important!
+  redundantParameter:
+    required: false
+    description: I don't need this parameter at all
 runs:
   using: "composite"
   steps:
