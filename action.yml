@@ -4,9 +4,11 @@ inputs:
   mandatoryParameter:
     required: true
     description: This parameter is very-very important!
+    default: Iris
   redundantParameter:
     required: false
     description: I don't need this parameter at all
+    default: :(
 runs:
   using: "composite"
   steps:
