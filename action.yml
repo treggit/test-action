@@ -1,0 +1,13 @@
+name: Test composite actions
+description: A short description of the action.
+runs:
+  using: "composite"
+  steps:
+    - id: step1
+      name: first step
+      run: echo "This is first action"
+      shell: bash
+    - id: step2
+      name: second step
+      run: second-action.sh
+      shell: sh
