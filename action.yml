@@ -11,8 +11,9 @@ inputs:
     default: :(
 
 runs:
-  using:  'node12'
+  using: 'node12'
   main: 'index.js'
+  pre: 'prestart.js'
 #  using: "composite"
 #  steps:
 #    - id: step1
