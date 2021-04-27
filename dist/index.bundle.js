@@ -157,7 +157,7 @@ eval("/* (ignored) */\n\n//# sourceURL=webpack://actions-polygon/fs_(ignored)?")
 /*!******************!*\
   !*** ./index.js ***!
   \******************/
-eval("var __dirname = \"/\";\nconst core = __webpack_require__(/*! @actions/core */ \"./node_modules/@actions/core/lib/core.js\")\n\ncore.setSecret(\"github\")\n\nconsole.log(\"github is cool!\")\ncore.setOutput(\"some-output\", \"test\")\n\ncore.startGroup(\"test_group\")\ncore.error(\"Something went wrong!\")\ncore.warning(\"Something went wrong but not really disastrous!\")\ncore.endGroup()\n\ncore.exportVariable(\"TEST_VAR\", \"test\")\ncore.addPath(\"some-path\")\nconsole.log(__dirname)\ncore.setFailed(\"Fail :(\")\n\n\n//# sourceURL=webpack://actions-polygon/./index.js?");
+eval("var __dirname = \"/\";\nconst core = __webpack_require__(/*! @actions/core */ \"./node_modules/@actions/core/lib/core.js\")\n\ncore.setSecret(\"github\")\n\nconsole.log(\"github is cool!\")\n// core.setOutput(\"some-output\", \"test\")\n\ncore.startGroup(\"test_group\")\ncore.error(\"Something went wrong!\")\ncore.warning(\"Something went wrong but not really disastrous!\")\ncore.endGroup()\n\ncore.exportVariable(\"TEST_VAR\", \"test\")\ncore.addPath(\"some-path\")\nconsole.log(__dirname)\ncore.setFailed(\"Fail :(\")\n\n\n//# sourceURL=webpack://actions-polygon/./index.js?");
 })();
 
 /******/ })()
